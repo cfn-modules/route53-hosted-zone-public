@@ -14,7 +14,7 @@
 # limitations under the License.
 AWSTemplateFormatVersion: '2010-09-09'
 Description: 'cfn-modules: AWS Route53 hosted zone (public)'
-# cfn-modules:implements(HostedZone, ExposeName)
+# cfn-modules:implements(HostedZone)
 Parameters:
   Name:
     Description: 'The name of the domain (hosted zone).'
@@ -30,7 +30,7 @@ Outputs:
   ModuleId:
     Value: 'route53-hosted-zone-public'
   ModuleVersion:
-    Value: '0.0.2'
+    Value: '0.0.3'
   StackName:
     Value: !Ref 'AWS::StackName'
   Id:
