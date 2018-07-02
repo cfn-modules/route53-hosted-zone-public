@@ -1,8 +1,16 @@
 {
   "name": "@cfn-modules/route53-hosted-zone-public",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "AWS Route53 hosted zone public accessible",
   "author": "Michael Wittig <michael@widdix.de>",
   "license": "Apache-2.0",
-  "keywords": ["cfn-modules", "cfn-modules:HostedZone"]
+  "keywords": ["cfn-modules", "cfn-modules:HostedZone"],
+  "homepage": "https://github.com/cfn-modules",
+  "bugs": {
+    "url": "https://github.com/cfn-modules/route53-hosted-zone-public/issues"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/cfn-modules/route53-hosted-zone-public.git"
+  }
 }
