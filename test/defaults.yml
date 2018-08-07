@@ -1,0 +1,10 @@
+---
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'cfn-modules test'
+Resources:
+  HostedZone:
+    Type: 'AWS::CloudFormation::Stack'
+    Properties:
+      Parameters:
+        Name: 'widdix.de'
+      TemplateURL: './node_modules/@cfn-modules/route53-hosted-zone-public/module.yml'
