@@ -1,6 +1,6 @@
 {
   "name": "@cfn-modules/route53-hosted-zone-public",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "AWS Route53 hosted zone public accessible",
   "author": "Michael Wittig <michael@widdix.de>",
   "license": "Apache-2.0",
