@@ -30,7 +30,7 @@ Outputs:
   ModuleId:
     Value: 'route53-hosted-zone-public'
   ModuleVersion:
-    Value: '0.0.4'
+    Value: '1.0.0'
   StackName:
     Value: !Ref 'AWS::StackName'
   Id:
