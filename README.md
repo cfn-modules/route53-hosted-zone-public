@@ -28,6 +28,15 @@ Resources:
       TemplateURL: './node_modules/@cfn-modules/route53-hosted-zone-public/module.yml'
 ```
 
+## Examples
+
+* [ec2-ssh-bastion](https://github.com/cfn-modules/docs/tree/master/examples/ec2-ssh-bastion)
+
+## Related modules
+
+* [route53-hosted-zone-private](https://github.com/cfn-modules/route53-hosted-zone-private)
+* [route53-hosted-zone-wrapper](https://github.com/cfn-modules/route53-hosted-zone-wrapper)
+
 ## Parameters
 
 <table>
